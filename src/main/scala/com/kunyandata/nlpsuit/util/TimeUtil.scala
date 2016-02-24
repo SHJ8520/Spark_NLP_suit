@@ -7,7 +7,7 @@ import java.util.Date
   * Created by QQ on 2016/2/23.
   */
 class TimeUtil {
-  
+
   def get_date(timeString: String, formatString: String): String ={
 
     var dateFormat = new SimpleDateFormat(formatString)
